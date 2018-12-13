@@ -1,0 +1,25 @@
+{
+  "name": "@chilangolabs/eslint-config",
+  "description": "Chilango Labs's ESLint config",
+  "version": "1.0.0",
+  "author": "Rodrigo Moreno <rodrigo@chilangolabs.com>",
+  "contributors": [
+    "Christian Ceciliano <christian@chilangolabs.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chilangolabs/eslint-config.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js --ignore-pattern=tests",
+    "test": "eslint tests/**/*.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.10.0"
+  }
+}
